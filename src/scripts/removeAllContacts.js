@@ -1,5 +1,17 @@
-import { PATH_DB } from '../constants/contacts.js';
+import { PATH_DB } from '../contacts/contacts.js';
+import { promises as fs } from 'fs';
+import path from 'path';
 
-export const removeAllContacts = async () => {};
+const removeAllContacts = async () => {
+  try {
+    const emptyContacts = [];
+
+    await fs.writeFile(path.resolve(PATH_DB), JSON.stringify(emptyContacts, null, 2));
+  } catch (error) {
+    console.error(error);
+  }
+};
 
 removeAllContacts();
+
+export { removeAllContacts };

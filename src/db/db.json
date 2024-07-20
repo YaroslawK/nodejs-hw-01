@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": "a02fcb9c-9bb1-4ca2-b691-c4b0503a833d",
+    "name": "Teresa Hyatt-Aufderhar",
+    "phone": "1-320-489-3709 x804",
+    "email": "Katlynn.Borer71@gmail.com",
+    "job": "Dynamic Paradigm Supervisor"
+  },
+  {
+    "id": "b4de0aa9-c052-4c4b-8727-f536643bb22b",
+    "name": "Andrea Kuhic",
+    "phone": "(952) 999-3995 x4730",
+    "email": "Marvin.Wunsch@yahoo.com",
+    "job": "Dynamic Brand Engineer"
+  },
+  {
+    "id": "0f57c2d5-eb8e-4b0e-9814-482b9ea9f179",
+    "name": "Kate Torphy",
+    "phone": "(236) 524-6889 x39192",
+    "email": "Kimberly.Yost98@gmail.com",
+    "job": "Legacy Creative Designer"
+  },
+  {
+    "id": "0320e078-52a8-4d29-bf9b-9731233f3ac0",
+    "name": "Grant Beahan",
+    "phone": "781.966.8872 x1643",
+    "email": "Donnie36@yahoo.com",
+    "job": "Corporate Program Facilitator"
+  },
+  {
+    "id": "d30cde97-5045-42dd-a212-67cc4965b4db",
+    "name": "Reginald Zieme",
+    "phone": "805-974-5605 x56580",
+    "email": "Judson.Langworth@gmail.com",
+    "job": "Chief Brand Agent"
+  }
+]
