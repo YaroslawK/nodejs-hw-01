@@ -1,6 +1,7 @@
+import { error } from 'console';
 import { PATH_DB } from '../contacts/contacts.js';
 import { promises as fs } from 'fs';
-import path from 'path';
+import path, { resolve } from 'path';
 
 const getAllContacts = async () => {
   try {
@@ -13,6 +14,8 @@ const getAllContacts = async () => {
   }
 };
 
-getAllContacts();
+getAllContacts()
+  .then(resolve => console.log(resolve))
+  .catch(error => console.log(error))
 
 export { getAllContacts };
