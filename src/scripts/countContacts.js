@@ -1,7 +1,6 @@
-import { error } from 'console';
 import { PATH_DB } from '../contacts/contacts.js';
 import { promises as fs } from 'fs';
-import path, { resolve } from 'path';
+import path from 'path';
 
 const countContacts = async () => {
   try {
